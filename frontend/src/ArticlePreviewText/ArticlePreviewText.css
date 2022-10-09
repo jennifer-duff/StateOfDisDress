@@ -1,0 +1,35 @@
+.ArticlePreviewText {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 60px 0;
+    text-decoration: none;
+    color: black;
+}
+
+.ArticlePreviewText-ImgWrapper {
+    width: 45%;
+    height: 200px;
+    background-color: var(--lightgray);
+}
+
+.ArticlePreviewText-TextWrapper {
+    width: 45%;
+}
+
+.ArticlePreviewText-Tags {
+    font-size: 10pt;
+    margin: 0;
+    color: var(--lightgray);
+}
+
+.ArticlePreviewText-Text {
+    color: var(--darkgray);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: calc(1.75rem * 5); /* line-height * # of lines */
+    display: block;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+}

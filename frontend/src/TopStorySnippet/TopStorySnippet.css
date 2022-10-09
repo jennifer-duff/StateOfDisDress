@@ -1,0 +1,45 @@
+.TopStorySnippet-SplashImgWrapper {
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    margin-top: -23px;
+    box-shadow: var(--box-shadow-offset) var(--box-shadow-offset) 0 var(--blue);
+    background-image: url("../_Assets/blazerFit.png");
+    background-repeat: no-repeat;
+    background-position: right 50% bottom 80%;
+    background-size: cover;
+}
+
+.TopStorySnippet-Header {
+    margin-top: 65px;
+}
+
+.TopStorySnippet-Tags {
+    margin: 0;
+    line-height: 100%;
+    font-size: 10pt;
+    color: var(--lightgray);
+}
+
+.TopStorySnippet-PreviewText {
+    color: var(--darkgray);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: calc(1.75rem * 2); /* line-height * # of lines */
+    display: block;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2; /* line-clamp must match # of lines */
+}
+
+.TopStorySnippet-ReadMoreLink {
+    margin-left: 10px;
+    font-size: 10pt;
+    display: block;
+    text-align: right;
+    margin-bottom: 40px;
+}
+
+.TopStorySnippet-Emoji {
+    margin-bottom: -5px;
+}
