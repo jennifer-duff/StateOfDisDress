@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/StateOfDisDress/static/css/main.d3600d07.css",
+    "main.js": "/StateOfDisDress/static/js/main.942536a2.js",
+    "static/media/blazerFit.png": "/StateOfDisDress/static/media/blazerFit.0ab3577b345a90320dc4.png",
+    "static/media/emoji_woman.png": "/StateOfDisDress/static/media/emoji_woman.ec566e30853f18526720.png",
+    "static/media/emoji_satellite.png": "/StateOfDisDress/static/media/emoji_satellite.00f7cf2e563f367ca740.png",
+    "static/media/emjoi_wave.png": "/StateOfDisDress/static/media/emjoi_wave.a4ce4d491d4ba0b1f552.png",
+    "static/media/emoji_eyes.png": "/StateOfDisDress/static/media/emoji_eyes.0076e5d6de7a1716330c.png",
+    "index.html": "/StateOfDisDress/index.html",
+    "static/media/menu-icon.svg": "/StateOfDisDress/static/media/menu-icon.871753c6be49f945ab19.svg",
+    "main.d3600d07.css.map": "/StateOfDisDress/static/css/main.d3600d07.css.map",
+    "main.942536a2.js.map": "/StateOfDisDress/static/js/main.942536a2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d3600d07.css",
+    "static/js/main.942536a2.js"
+  ]
+}
