@@ -1,13 +1,15 @@
 .Header {
+    position: relative;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 25px;
+    z-index: 100;
 }
 
 .Header-SiteName {
     position: relative;
-    top: 50px;
+    top: 25px;
     left: 100px;
     display: flex;
     flex-direction: column;
@@ -39,7 +41,6 @@
 }
 
 .Header-MenuButton {
-    cursor: pointer;
     appearance: none;
     border: none;
     background-color: var(--eggshell);

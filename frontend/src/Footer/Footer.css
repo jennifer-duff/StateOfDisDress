@@ -1,3 +1,7 @@
+.Footer {
+    margin-top: 75px;
+}
+
 .Footer-NavLinksWrapper {
     display: flex;
     flex-direction: row;
@@ -17,9 +21,4 @@
 
 .Footer-NavLink:hover {
     text-decoration: 2px solid underline var(--blue);
-}
-
-.Footer-Emoji {
-    height: 20px;
-    margin-right: 10px;
 }

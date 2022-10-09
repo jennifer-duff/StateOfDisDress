@@ -13,6 +13,7 @@
     --lightgray: #787878;
     --sans-serif: "synthese", sans-serif;
     --mono-font: "Fira Code", monospace;
+    --box-shadow-offset: 15px;
 }
 
 body {
@@ -27,12 +28,29 @@ body {
     flex-wrap: nowrap;
 }
 
+a {
+    color: var(--blue);
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 35pt;
+    font-weight: 500;
+    margin: 20px 0;
+}
+
+.Emoji {
+    height: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
 .Mono {
     font-family: var(--mono-font);
     letter-spacing: 2px;
     text-transform: lowercase;
-}
-
-a {
-    color: var(--blue);
 }
