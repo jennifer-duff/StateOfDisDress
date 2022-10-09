@@ -1,0 +1,53 @@
+.Header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.Header-SiteName {
+    position: relative;
+    top: 50px;
+    left: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: space-between;
+    justify-content: space-between;
+}
+
+.Header-LogoType {
+    font-size: 40pt;
+    font-weight: 500;
+    margin: -10px 0 0 0; /* offsets line height of Synthese font */
+    padding: 0;
+    line-height: 100%;
+}
+
+.Header-Tagline {
+    font-family: var(--mono-font);
+    font-weight: 300;
+    font-size: 15pt;
+    margin: 0;
+    line-height: 100%;
+    position: relative;
+    align-self: flex-end;
+    top: 10px;
+    left: 165px;
+    background-color: var(--purple);
+    padding: 9px 14px 8px 14px;
+}
+
+.Header-MenuButton {
+    cursor: pointer;
+    appearance: none;
+    border: none;
+    background-color: var(--eggshell);
+    background-image: url(../_Assets/menu-icon.svg);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+    padding: 20px;
+}

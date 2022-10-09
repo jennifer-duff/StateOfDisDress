@@ -1,0 +1,25 @@
+.Footer-NavLinksWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0px 100px 20px 100px;
+}
+
+.Footer-NavLink {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    text-decoration: 0.5px solid underline var(--eggshell);
+    transition: text-decoration 0.2s ease-in-out;
+}
+
+.Footer-NavLink:hover {
+    text-decoration: 2px solid underline var(--blue);
+}
+
+.Footer-Emoji {
+    height: 20px;
+    margin-right: 10px;
+}

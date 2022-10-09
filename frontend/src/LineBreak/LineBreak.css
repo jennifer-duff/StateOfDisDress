@@ -1,0 +1,6 @@
+.LineBreak {
+    width: 90%;
+    height: 1px;
+    background-color: var(--lightgray);
+    margin: 20px auto;
+}
