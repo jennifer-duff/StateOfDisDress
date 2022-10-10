@@ -1,18 +1,18 @@
 import "./FrontPage.css";
 import TopStorySnippet from "../TopStorySnippet/TopStorySnippet";
 import LineBreak from "../LineBreak/LineBreak";
-import ArticlePreviewText from "../ArticlePreviewText/ArticlePreviewText";
+import ArticlePreviewWithText from "../ArticlePreviewWithText/ArticlePreviewWithText";
 
 function FrontPage() {
     return (
         <div className="FrontPage">
             <TopStorySnippet />
             <LineBreak />
-            <ArticlePreviewText BoxShadowColor="teal" />
+            <ArticlePreviewWithText BoxShadowColor="teal" />
             <LineBreak />
-            <ArticlePreviewText BoxShadowColor="yellow" />
+            <ArticlePreviewWithText BoxShadowColor="yellow" />
             <LineBreak />
-            <ArticlePreviewText BoxShadowColor="pink" />
+            <ArticlePreviewWithText BoxShadowColor="pink" />
         </div>
     );
 }

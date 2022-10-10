@@ -61,9 +61,13 @@ h2 {
     font-family: var(--mono-font);
     letter-spacing: 2px;
     text-transform: lowercase;
+    line-height: 1.15rem;
+    font-weight: 300;
+    font-size: 10pt;
 }
 
-.BodyText {
+p {
     line-height: 1.75rem;
     font-weight: 300;
+    font-size: 11pt;
 }

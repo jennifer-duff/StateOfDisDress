@@ -1,13 +1,13 @@
 .TopStorySnippet-SplashImgWrapper {
-    width: 100%;
+    width: calc(100% - 15px);
     height: 600px;
-    overflow: hidden;
     margin-top: -30px;
+    /* overflow: hidden;
     box-shadow: var(--box-shadow-offset) var(--box-shadow-offset) 0 var(--blue);
     background-image: url("../_Assets/blazerFit.png");
     background-repeat: no-repeat;
     background-position: right 50% bottom 80%;
-    background-size: cover;
+    background-size: cover; */
 }
 
 .TopStorySnippet-Header {
@@ -16,8 +16,6 @@
 
 .TopStorySnippet-Tags {
     margin: 0;
-    line-height: 100%;
-    font-size: 10pt;
     color: var(--lightgray);
 }
 
@@ -25,11 +23,11 @@
     color: var(--darkgray);
     overflow: hidden;
     text-overflow: ellipsis;
-    max-height: calc(1.75rem * 2); /* line-height * # of lines */
+    max-height: calc(1.75rem * 3); /* line-height * # of lines */
     display: block;
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2; /* line-clamp must match # of lines */
+    -webkit-line-clamp: 3; /* line-clamp must match # of lines */
 }
 
 .TopStorySnippet-ReadMoreLink {
