@@ -2,12 +2,12 @@
     width: calc(100% - 15px);
     height: 600px;
     margin-top: -30px;
-    /* overflow: hidden;
+    overflow: hidden;
     box-shadow: var(--box-shadow-offset) var(--box-shadow-offset) 0 var(--blue);
     background-image: url("../_Assets/blazerFit.png");
     background-repeat: no-repeat;
     background-position: right 50% bottom 80%;
-    background-size: cover; */
+    background-size: cover;
 }
 
 .TopStorySnippet-Header {

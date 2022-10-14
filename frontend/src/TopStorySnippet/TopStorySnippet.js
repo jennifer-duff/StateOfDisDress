@@ -1,23 +1,10 @@
 import "./TopStorySnippet.css";
 import emojiEyes from "../_Assets/emoji_eyes.png";
-import blazerFit from "../_Assets/blazerFit.png";
-import ImageWrapper from "../Image/ImageWrapper";
 
 function TopStorySnippet() {
-    let addlStyles = {
-        overflow: "hidden",
-        "background-position": " right 50% bottom 80%",
-    };
-
     return (
         <div className="TopStorySnippet">
-            <div className="TopStorySnippet-SplashImgWrapper">
-                <ImageWrapper
-                    source={"url(" + blazerFit + ")"}
-                    shadowColor="blue"
-                    addlStyles={addlStyles}
-                />
-            </div>
+            <div className="TopStorySnippet-SplashImgWrapper"></div>
             <h1 className="TopStorySnippet-Header">Headline</h1>
             <p className="TopStorySnippet-Tags Mono">tag anothertag thirdtag</p>
             <p className="TopStorySnippet-PreviewText">
