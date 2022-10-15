@@ -23,11 +23,11 @@
     color: var(--darkgray);
     overflow: hidden;
     text-overflow: ellipsis;
-    max-height: calc(1.75rem * 3); /* line-height * # of lines */
+    max-height: calc(1.75rem * 5); /* line-height * # of lines */
     display: block;
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 3; /* line-clamp must match # of lines */
+    -webkit-line-clamp: 5; /* line-clamp must match # of lines */
 }
 
 .TopStorySnippet-ReadMoreLink {
