@@ -1,6 +1,17 @@
 .LineBreak {
+    /* width: 100%;
+    height: 1px; */
+    background-color: var(--lightgray);
+    /* margin: 20px auto; */
+}
+
+.LineBreak-Horizontal {
     width: 100%;
     height: 1px;
-    background-color: var(--lightgray);
     margin: 20px auto;
+}
+
+.LineBreak-Vertical {
+    width: 1px;
+    margin: 0px 20px;
 }

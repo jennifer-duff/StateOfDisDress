@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./ArticlePreviewWithText.css";
-import { computeBoxShadowStyle } from "../Utility";
+import { computeBoxShadowStyle } from "../Utilities";
 
 class ArticlePreviewWithText extends Component {
     render() {
