@@ -9,7 +9,7 @@
 
 .FrontPage-ArticleDiv {
     border-top: none;
-    border-left: 1px solid var(--darkgray);
+    border-left: 1px solid var(--lightgray);
     padding-left: 2.5%;
     margin-left: 2.5%;
     width: 33%;
@@ -25,7 +25,7 @@
     }
 
     .FrontPage-ArticleDiv {
-        border-top: 1px solid var(--darkgray);
+        border-top: 1px solid var(--lightgray);
         border-left: none;
         padding-left: none;
         margin-left: none;
