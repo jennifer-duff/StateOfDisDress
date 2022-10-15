@@ -1,0 +1,48 @@
+.MenuDrawer {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    padding: 40px 45px 40px 40px;
+    border: 1px solid var(--lightgray);
+    background-color: var(--eggshell);
+    box-shadow: 10px 10px 0px var(--teal);
+    width: 230px;
+}
+
+.MenuDrawer-Close {
+    appearance: none;
+    background-color: var(--eggshell);
+    border: none;
+    outline: none;
+    width: 25px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    transition: width 0.15s ease-in-out;
+}
+
+.MenuDrawer-Close:hover,
+.MenuDrawer-Close:active,
+.MenuDrawer-Close:focus {
+    width: 29px;
+}
+
+.MenuDrawer-Link {
+    text-decoration: none;
+    color: black;
+    font-size: 15pt;
+    font-weight: 500;
+    text-decoration: 1px solid underline var(--eggshell);
+    transition: 0.3s ease-in-out;
+}
+
+.MenuDrawer-Link:hover,
+.MenuDrawer-Link:active,
+.MenuDrawer-Link:focus {
+    text-decoration: 3px solid underline var(--purple);
+}
+
+.MenuDrawer-Link:nth-of-type(2) {
+    margin: 30px 0;
+}

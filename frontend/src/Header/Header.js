@@ -1,3 +1,4 @@
+import MenuDrawer from "../MenuDrawer/MenuDrawer";
 import "./Header.css";
 
 function Header() {
@@ -11,6 +12,7 @@ function Header() {
                 className="Header-MenuButton"
                 href="localhost:3000"
             ></button>
+            <MenuDrawer />
         </div>
     );
 }

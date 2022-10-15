@@ -37,20 +37,25 @@ button {
     cursor: pointer;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: capitalize;
+    line-height: 100%;
+    font-weight: 500;
+}
+
 h1 {
     font-size: 35pt;
-    font-weight: 500;
     margin: 20px 0 15px 0;
-    line-height: 100%;
-    text-transform: capitalize;
 }
 
 h2 {
     font-size: 23pt;
-    font-weight: 500;
     margin: 0px 0 10px 0;
-    line-height: 100%;
-    text-transform: capitalize;
 }
 
 .Emoji {
