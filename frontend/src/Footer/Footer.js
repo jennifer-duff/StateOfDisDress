@@ -7,7 +7,7 @@ import emoji_woman from "../_Assets/emoji_woman.png";
 function Footer() {
     return (
         <div className="Footer">
-            <LineBreak orientation="horizonal" />
+            <LineBreak />
             <div className="Footer-NavLinksWrapper">
                 <a href="Localhost:3000" className="Footer-NavLink Mono">
                     <img
