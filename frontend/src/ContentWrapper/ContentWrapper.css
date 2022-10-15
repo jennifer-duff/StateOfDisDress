@@ -1,3 +1,10 @@
 .ContentWrapper {
     min-height: 77vh;
+    transition: padding 0.2s ease-in-out;
+}
+
+@media (min-width: 1450px) {
+    .ContentWrapper {
+        padding: 0 10%;
+    }
 }

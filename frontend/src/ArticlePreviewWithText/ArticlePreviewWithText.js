@@ -15,11 +15,11 @@ class ArticlePreviewWithText extends Component {
                     style={boxShadowStyle}
                 ></div>
                 <div className="ArticlePreviewWithText-TextWrapper">
-                    <h2>Headline</h2>
+                    <h2>This is a Long Headline - Will This Fit?</h2>
                     <p className="ArticlePreviewWithText-Tags Mono">
                         tag anothertag thirdtag
                     </p>
-                    <p className="ArticlePreviewWithText-Text">
+                    {/* <p className="ArticlePreviewWithText-Text">
                         Quisque convallis magna nisl, at fermentum quam
                         condimentum at. Morbi pretium congue felis, et facilisis
                         felis hendrerit sed. Phasellus quis erat vitae lacus
@@ -31,7 +31,7 @@ class ArticlePreviewWithText extends Component {
                         elementum, vitae finibus nunc pulvinar. In vel vulputate
                         sem. Proin fermentum odio ac nisl rhoncus, nec bibendum
                         nisi ornare.
-                    </p>
+                    </p> */}
                 </div>
             </a>
         );

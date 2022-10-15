@@ -42,13 +42,15 @@ h1 {
     font-weight: 500;
     margin: 20px 0 15px 0;
     line-height: 100%;
+    text-transform: capitalize;
 }
 
 h2 {
-    font-size: 25pt;
+    font-size: 23pt;
     font-weight: 500;
     margin: 0px 0 10px 0;
     line-height: 100%;
+    text-transform: capitalize;
 }
 
 .Emoji {
